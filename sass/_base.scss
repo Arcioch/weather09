@@ -2,13 +2,19 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: $mainFontFamily;
+}
+
 a {
     text-decoration: none;
 }
 
-.container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-    width: 100%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $headerFontFamily;
 }

@@ -5,12 +5,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Starter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Oswald:wght@400;600;700&display=swap"
+    rel="stylesheet">
   <script type="module" crossorigin src="./assets/index.fe72f982.js"></script>
-  <link rel="stylesheet" href="./assets/index.5806749d.css">
+  <link rel="stylesheet" href="./assets/index.95aebbc8.css">
 </head>
 
 <body>
-  <h1>Weather APP</h1>
+  <!-- BEM -->
+  <!-- Block -->
+  <section class="weather">
+    <!-- Element -->
+    <video src="./video/bg.mp4" autoplay muted loop playsinline class="weather__bg"></video>
+    <h1 class="weather__title">Weather APP</h1>
+    <form action="" class="weather__form">
+      <input type="text" class="weather__city">
+    </form>
+  </section>
+
   
 </body>
 
